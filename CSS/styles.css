@@ -7,9 +7,9 @@
 
 body{
     margin: 0;
-    padding: 10px;
+    padding: 0;
     width: 100%;
-    height: 5000px;
+    height: 2120px;
     font-family: poppins, sans-serif;
     font-size: 15px;
     background-color: black;
@@ -26,6 +26,440 @@ li{
     list-style: none;
 }
 
+img{
+    width: 160px;
+    height: 160px;
+}
+
 #main{
     display: flex;
+
+}
+
+.nav-container{
+    width: 320px;
+    height: 700px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar{
+    width: 310px;
+    height: 150px;
+    background-color: #262626;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: block;
+    line-height: 2.5;
+   
+}
+
+.navbar a{
+    width: 100%;
+    font-size: 18px;
+    padding: 20px;
+
+}
+
+.navbar li i{
+   padding-right: 20px;
+   font-size: 20px;
+}
+
+
+.side-nav{
+    width: 310px;
+    height: 450px;
+    background-color: #262626;
+    margin: 8px auto;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+.side-nav div:nth-of-type(1) {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+
+.side-nav div:nth-of-type(1){
+    a{
+        padding: 20px 0;
+        padding-left: 10px;
+    }
+}
+
+.side-nav div:nth-of-type(1) {
+    i{
+    padding-top: 5px;
+    padding-right: 20px;
+    }
+}
+
+.side-nav div:nth-of-type(2) {
+        width: 100%;
+        height: 60px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: #404040;
+}
+
+.side-nav div:nth-of-type(2){
+    p{
+        padding: 20px 10px;
+    }
+}
+
+ .side-nav div:nth-of-type(3){
+    margin-top: 40px;
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    line-height: 1.9;
+ }
+
+ .side-nav div:nth-of-type(3){
+    a{
+        padding: 15px;
+    }
+ }
+
+ .side-nav .lang{
+    margin-top: 60px;
+    margin-left: 30px;
+   
+ }
+
+ .lang a{
+    width: 150px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+ }
+
+.main-section{
+    width: calc(100% - 320px);
+    height: 2000px;
+    display: block;
+    background-color: #262626;
+    font-size: 15px;
+    display: block;
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+
+.main-section .verify-id{
+    width: calc(100% - 320px);
+    height: 75px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.main-section .back{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+
+.main-section .login{
+    width: 250px;
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+ .sign-up{
+    width: 125px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding-top: 12px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.log-in{
+    width: 125px;
+    height: 55px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+   padding-top: 12px;
+   padding-left: 30px;
+   font-weight: bold;
+}
+
+.main-section .show-all{
+    padding: 15px;
+}
+
+
+
+.main-section .artists{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.artists .show-all{
+    width: 100%;
+    height: 70;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artists .artists-container{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.artists-container img{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.artists-container div{
+    width: 18%;
+    height: 220px;
+    background-color: black;
+}
+
+.main-section .albums{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: block;
+    margin-top: 30px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.albums .show-all{
+    width: 100%;
+    height: 70;
+    display: flex;
+    justify-content: space-between;
+}
+
+.albums .albums-container{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.albums-container img{
+    padding: 10px;
+}
+
+.albums-container div{
+    width: 18%;
+    height: 220px;
+    background-color: black;
+}
+
+.main-section .radio{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.radio .show-all{
+    width: 100%;
+    height: 70;
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio .radio-container{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.radio-container img{
+    padding: 10px;
+}
+
+.radio-container div{
+    width: 18%;
+    height: 250px;
+    background-color: black;
+}
+
+.main-section .charts{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.charts .show-all{
+    width: 100%;
+    height: 70;
+    display: flex;
+    justify-content: space-between;
+}
+
+.charts .charts-container{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.charts-container img{
+    padding: 10px;
+}
+
+.charts-container div{
+    width: 18%;
+    height: 250px;
+    background-color: black;
+}
+
+.main-section .playlist{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.playlist .show-all{
+    width: 100%;
+    height: 70;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playlist .playlist-container{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.playlist-container img{
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.playlist-container div{
+    width: 18%;
+    height: 250px;
+    background-color: black;
+}
+
+.main-section .demarcation{
+    width: 100%;
+    height: 50px;
+    background-color: #262626;
+}
+
+.main-section .info{
+    width: 100%;
+    height: 197px;
+    background-color: #262626;
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.info ul, .link-icons{
+    padding: 30px;
+}
+
+.info h5{
+    font-size: 16px;
+}
+
+.info i{
+    font-size: 20px;
+    padding: 8px;
+}
+
+.main-section .divider{
+    width: 94%;
+    height: 1px;
+    margin: 10px auto;
+   background-color: lightgray;
+}
+
+.main-section .copyright p{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to right, #a32985 0%, #26b5d9 100%);
+    position: fixed;
+    bottom: 0;
+}
+
+.footer .sign-up2{
+    width: 135px;
+    height: 55px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.footer .sign-up2 a{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer .sign-up2 p{
+    padding-top: 12px;
+    padding-left: 17px;
 }

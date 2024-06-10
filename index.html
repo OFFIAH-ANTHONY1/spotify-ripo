@@ -10,35 +10,43 @@
 <body>
    
     <main id="main">
-        <nav class="navbar">
+        <nav class="nav-container">
+        <div class="navbar">
             <ul>
                <a href=""><i class="fa-brands fa-spotify"></i>spotify</a>
-                <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href=""><i class="fa-solid fa-house"></i>  Home</a></li>
                 <li><a href=""><i class="fa-solid fa-magnifying-glass"></i> search</a></li>
             </ul>
-        </nav>
+        </div>
         <div class="side-nav">
             <div>
-                <button><a href="">your library</a></button>
-                <i class="fa-solid fa-plus"></i>
+                <a href=""><i class="fa-duotone fa-rectangle-vertical-history"></i> your library</a>
+                <a href=""><i class="fa-solid fa-plus"></i></a>
             </div>
-            <div></div>
+            <div><p>Create your first playlist</p></div>
+            
+            <div>
             <a href="">Legal</a>
             <a href="">Safety & Privacy Center</a>
             <a href="">Privacy Policy</a>
             <a href="">Cookies</a>
             <a href="">About Ads</a>
             <a href="">Accessibilty</a>
+            </div>
+            <div class="lang">
+                <a href=""><i class="fa-regular fa-globe"></i> English</a>
+            </div>
         </div>
-        <div>
-            <a href=""><i class="fa-regular fa-globe"></i> English</a>
-        </div>
-<section>
+        </nav>
+<section class="main-section">
     <div class="verify-id">
-        <div></div>
-        <div>
-            <a href=""><button>Sign up</button></a>
-            <a href=""><button>Log in</button></a>
+        <div class="back">
+            <div><i class="fa-sharp fa-regular fa-chevron-left"></i></div>
+            <div><i class="fa-sharp fa-regular fa-chevron-right"></i></div>
+        </div>
+        <div class="login">
+            <a href=""><div class="sign-up">Sign up</div></a>
+            <a href=""><div class="log-in">Log in</div></a>
         </div>
     </div>
 <div class="artists">
@@ -46,9 +54,11 @@
         <a href=""><h3>Popular artists</h3></a>
         <a href="">show all</a>
     </div>
+    <div class="artists-container">
     <div>
         <a href="">
             <img src="images/asake.jpeg" width="150px" height="120px" alt="artists-image">
+           
             <h4>Asake</h4>
             <p>Artist</p>
         </a>
@@ -80,17 +90,20 @@
             <h4>Shallipopi</h4>
             <p>Artist</p>
         </a>
+        </div>
     </div>
-    <a href=""></a>
+    
 </div>
 <div class="albums">
     <div class="show-all">
         <a href=""><h3>Popular Albums</h3></a>
         <a href="">show all</a>
     </div>
+    <div class="albums-container">
     <div>
         <a href="">
             <img src="images/work of art.jpeg" width="150px" height="120px" alt="album-image">
+            
             <h4>Work of Art</h4>
             <p>Asake</p>
         </a>
@@ -123,12 +136,14 @@
             <p>Ayra Starr</p>
         </a>
     </div>
+    </div>
 </div>
 <div class="radio">
     <div class="show-all">
         <a href=""><h3>Popular Radio</h3></a>
         <a href="">show all</a>
     </div>
+    <div class="radio-container">
     <div>
         <a href="">
             <img src="images/seyi radio.jpeg" width="150px" height="120px" alt="radio-image">
@@ -174,14 +189,17 @@
             </p>
         </a>
     </div>
-    
+    </div>
 </div>
+
 <div class="charts">
     <div class="show-all">
         <a href=""><h3>Featured Charts</h3></a>
         <a href="">show all</a>
     </div>
     <div>
+        <div class="charts-container">
+            <div>
         <a href="">
             <img src="images/top global.png" width="150px" height="120px" alt="charts-image">
             <h4>Top Songs Global</h4>
@@ -216,18 +234,20 @@
             <p>Your daily update of the most played track...</p>
         </a>
     </div>
-    <a href=""></a>
+    </div>
 </div>
+
 <div class="playlist">
     <div class="show-all">
         <a href=""><h3>Spotify Playlist</h3></a>
         <a href="">show all</a>
     </div>
+    <div class="playlist-container">
     <div>
         <a href="">
             <img src="images/allout playlist.jpeg" width="150px" height="120px" alt="playlist-image">
             <h4>All Out</h4>
-            <p>Your weekly update of the most played track...</p>
+            <p>By Spotify</p>
         </a>
     </div>
     <div>
@@ -258,8 +278,9 @@
             <p>By Spotify</p>
         </a>
     </div>
-    
+    </div>
 </div>
+<div class="demarcation"></div>
 <div class="info">
     <ul>
         <h5>Company</h5>
@@ -295,17 +316,15 @@
     </div>
 </div>
 <div class="divider"></div>
-<div><p>© 2024 Spotify AB</p></div>
+<div class="copyright"><p>© 2024 Spotify AB</p></div>
 </section>
-    </main>
-    <footer>
-        <div class="footer-links">
-            <a href="">Preview or Spotify</a>
-            <a href="">Sign up to get unlimited songs and podcasts with occasional ads. No credits needed.</a>
-        </div>
-        <div class="sign-up">
-            <button><a href="">Sign up free</a></button>
-        </div>
-    </footer>
+<section class="footer">
+    <div class="footer-links">
+        <p<a href="">Preview or Spotify</a></p>
+        <p><a href="" > Sign up to get unlimited songs and podcasts with occasional ads. No credits needed.</a></p>
+    </div>
+    <div class="sign-up2"><p><a href="">Sign up free</a></p></div>
+</section>
+</main>
 </body>
 </html>
