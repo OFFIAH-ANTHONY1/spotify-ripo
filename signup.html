@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body id="sign">
     <main id="sign-up-section">
         <div class="signup-container">
         <i class="fa-brands fa-spotify" id="header-logo"></i>
@@ -16,7 +16,7 @@
         </h1>
         <div class="form">
             <label for="email-input">Email address</label>
-            <input type="email" id="email-input" placeholder="name@domain.com">
+            <input type="email" id="email-input" placeholder="name@domain.com" value="" required>
             <a href="">Use phone number instead.</a>
             <button type="submit" id="submit-btn">Next</button>
         </div>
@@ -26,15 +26,17 @@
             <div class="mini-divider"></div>
         </span>
         <div class="media-signup">
-        <button><i class="fa-brands fa-google"></i>sign up with Google</button>
-        <button><i class="fa-brands fa-facebook"></i>sign up with Facebook</button>
-        <button><i class="fa-brands fa-apple"></i>sign up with Apple</button>
+        <a href=""><div><i class="fa-brands fa-google"></i><p>sign up with Google</p></div></a>
+        <a href=""><div><i class="fa-brands fa-facebook"></i><p>sign up with Facebook</p></div></a>
+        <a href=""><div><i class="fa-brands fa-apple"></i><p>sign up with Apple</p></div></a>
         </div>
         <div class="divider"></div>
+        <div class="bottom">
         <p>Already have an account?<a href="login.html">Log in here</a></p>
         <div>
             <p>This site is protected by reCAPTCHA and the Google</p>
             <p><a href="">Privacy policy</a> and <a href="">Terms of service</a> apply.</p>
+        </div>
         </div>
         </div>
     </main>
