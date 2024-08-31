@@ -11,6 +11,10 @@ submitBtn.addEventListener("click", () => {
         returnMessage.innerText = "This email is invalid. Make sure it's written like example@email.com";
         returnMessage.style.color= "red";
         returnMessage.style.display="block";
+    }else if(inputEmail.value.length < 9){
+        returnMessage.innerText = "This email is invalid. Make sure it's written like example@email.com";
+        returnMessage.style.color= "red";
+        returnMessage.style.display="block";
     }else if(inputEmail.value === `${inputEmail} + @gmail.com`){
         
     }
