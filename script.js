@@ -17,5 +17,9 @@ submitBtn.addEventListener("click", () => {
         returnMessage.style.display="block";
     }else if(inputEmail.value === `${inputEmail} + @gmail.com`){
         
+    }else if(inputEmail.value < 12){
+        returnMessage.innerText = "This email is invalid. Make sure it's written like example@email.com";
+        returnMessage.style.color= "red";
+        returnMessage.style.display="block";
     }
 });
