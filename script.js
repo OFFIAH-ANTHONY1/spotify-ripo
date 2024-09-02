@@ -21,5 +21,9 @@ submitBtn.addEventListener("click", () => {
         returnMessage.innerText = "This email is invalid. Make sure it's written like example@email.com";
         returnMessage.style.color= "red";
         returnMessage.style.display="block";
+    }else if(inputEmail > 13){
+        returnMessage.innerText = "This email is invalid. Make sure it's written like example@email.com";
+        returnMessage.style.color= "red";
+        returnMessage.style.display="block";
     }
 });
